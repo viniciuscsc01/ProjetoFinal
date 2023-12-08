@@ -1,0 +1,25 @@
+﻿body {
+    margin: 0;
+    padding: o;
+    background-color: white;
+}
+h1{
+    margin-top: 70px;
+}
+.caixa {
+    width: 40%;
+    height: 500px;
+    background-color: #ecd4ff;
+    border: solid 2px #d8aff8;
+    border-radius: 12px;
+    margin-left: 30%;
+    text-align: center;
+    margin-top: 100px;
+}
+.form-group input {
+    display: block;
+    widht: 80%;
+    height: 40px;
+    border-radius: 10px;
+    margin: 0 auto;
+}

@@ -1,0 +1,32 @@
+﻿@model ProjetoFinal.Models.ProcedimentoRealizado
+
+@{
+    ViewData["Title"] = "Imprimir";
+    Layout = null;
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Ck dos Exames</h1>
+    <div class="logo">
+        <div class="tex">
+            <h2>Paciente: @Html.DisplayFor(model => model.Cidade.CidadeNome)</h2>
+        </div>
+    </div>
+  
+    <div class="div-2">
+        <Span>Data do Exame: @Html.DisplayFor(model => model.DataRealizacao)</Span>
+    </div>
+    <div class="div-3">
+        <Span>Exame: @Html.DisplayFor(model => model.TipoProcedimento.TipoProcedimentoNome)</Span>
+       
+
+    </div>
+    <div class="div-4">
+        <span>Obseraçoes: @Html.DisplayFor(model => model.ObservacaoRealizacao)</span>
+    </div>
+</body>
